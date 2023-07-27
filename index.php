@@ -34,5 +34,19 @@
     echo "<p>Ville: " . $personne['ville'] . "</p>";
     ?>
 
+    <!-- Scripts JavaScript -->
+    <script>
+        // Script 1: Afficher une alerte
+        alert("Ceci est un message JavaScript !");
+    </script>
+
+    <script>
+        // Script 2: Modifier le contenu de la page avec JavaScript
+        document.addEventListener("DOMContentLoaded", function() {
+            var titre = document.querySelector("h1");
+            titre.textContent = "Bienvenue sur Mon Petit TP en PHP";
+        });
+    </script>
+
 </body>
 </html>
